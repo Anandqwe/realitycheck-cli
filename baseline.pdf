@@ -1,0 +1,50 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 4 0 R >> >> /Contents 5 0 R >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+5 0 obj
+<< /Length 506 >>
+stream
+BT
+/F1 12 Tf
+50 750 Td
+(RealityCheck Demo Contract - Baseline) Tj
+0 -16 Td
+(1. Services: Contractor provides consulting services.) Tj
+0 -16 Td
+(2. Payment: Net 30 days after invoice.) Tj
+0 -16 Td
+(3. Termination: 15 days written notice required.) Tj
+0 -16 Td
+(4. Liability: Cap equals fees paid in last 12 months.) Tj
+0 -16 Td
+(5. Non-Compete: 12 months, limited to direct competitors.) Tj
+0 -16 Td
+(6. IP: Contractor retains pre-existing IP.) Tj
+0 -16 Td
+(7. Privacy: Breach notice within 30 days.) Tj
+ET
+endstream
+endobj
+xref
+0 6
+0000000000 65535 f
+0000000009 00000 n
+0000000058 00000 n
+0000000115 00000 n
+0000000241 00000 n
+0000000311 00000 n
+trailer
+<< /Size 6 /Root 1 0 R >>
+startxref
+0000000867
+%%EOF
