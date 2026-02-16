@@ -48,6 +48,7 @@ class LLMClient:
         if not settings.gemini_api_key:
             raise ValueError("GEMINI_API_KEY is required when LLM classification is enabled.")
         genai.configure(api_key=settings.gemini_api_key)
+        self._timeout_seconds = settings.llm_timeout_seconds
         self._model = genai.GenerativeModel(
             model_name=settings.gemini_model,
             system_instruction=_SYSTEM_PROMPT,
@@ -66,6 +67,7 @@ class LLMClient:
                 "temperature": 0.1,
                 "response_mime_type": "application/json",
             },
+            request_options={"timeout": self._timeout_seconds},
         )
         content = _extract_text(response)
         if content is None:

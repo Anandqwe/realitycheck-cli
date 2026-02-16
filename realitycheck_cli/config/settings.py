@@ -27,7 +27,7 @@ class Settings:
             raise ValueError("REALITYCHECK_LLM_TIMEOUT must be an integer.") from exc
         return cls(
             gemini_api_key=os.getenv("GEMINI_API_KEY"),
-            gemini_model=os.getenv("REALITYCHECK_GEMINI_MODEL", "gemini-1.5-flash"),
+            gemini_model=os.getenv("REALITYCHECK_GEMINI_MODEL", "gemini-3-flash-preview"),
             high_risk_threshold=max(1, min(100, threshold)),
             llm_timeout_seconds=max(5, timeout),
         )
